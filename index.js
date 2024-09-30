@@ -17,7 +17,7 @@ app.use(limiter);
 // app.use(cors());
 app.use(
   cors({
-    origin:[ "http://localhost:5173", "https://masterabhaymishra.github.io/"],// Allow requests from localhost:5173
+    origin:[ "http://localhost:5173", "https://idyllic-lokum-36921d.netlify.app/"],// Allow requests from localhost:5173
     credentials: true, // Allow credentials
   })
 );
