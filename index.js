@@ -24,7 +24,9 @@ app.use(
 app.use(express.json());
 
 // Database connection
-mongoose.connect("mongodb://localhost:27017/moviesapi");
+mongoose.connect(
+  "mongodb+srv://abhayanshmishra1371:abhay03collage@collagemanagment.si3gi.mongodb.net/moviesapi"
+);
 
 // Routes
 
